@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1416076901 source:c:\users\nevola\desktop\amazoninterview\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+	<unordered_set>
+	<list>
+	<algorithm>
+
