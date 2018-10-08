@@ -1,6 +1,6 @@
 /**
  * Implement a function that searches a value in a sorted rotated array:
- *      int FindIndx(int arr[], int length, int val) {}
+ *      int findIndex(int arr[], int length, int val) {}
  * "Sorted rotated" means that the array was first sorted in ascending order and then
  * rotated. For exmaple: [7 11 13 17 23 1 3 5]
  *
