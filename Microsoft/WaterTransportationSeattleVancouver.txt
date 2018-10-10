@@ -1,0 +1,43 @@
+There is a need to arrange water transportation between Seattle and Vancouver. Vessels
+must vacate each berth at least (in the other variant - exactly) once an hour. Travel time
+between the cities is 100 minutes.
+    a) How many vessels is needed?
+    b) How many other vessels does each vessel meet while travelling from one point to
+       another?
+    c) Assume, a vessel leaves a port at 2 pm. What time will it meet other vessels on its
+       path?
+
+Solution
+    a) (At least once an hour) 4 vessels that leave every 50 minutes
+       (Exactly once an hour) still 4 vessels are needed. But after arrival and before
+       departure every vessel will make a 20-minutes break
+    b) In both variants all other vessels will be met. Consider a vessel leaving a port.
+       All other vessels are either moving towards it (and thus will be met for sure) or
+       moving in front of it in the same direction (and thus will be met after they turn
+       around in a port of destination). And there cannot be vessels docked at port at
+       that moment
+    c) (At least once an hour) 2:25 pm, 2:50 pm, 3:15 pm (i.e. in 25, 50, and 75 minutes)
+       (Exactly once an hour) 2:20 pm, 2:50 pm, 3:20 pm (i.e. in 20, 50, and 80 minutes).
+       A vessel that left the opposite port at 1 pm will be met first
+
+------------------------------------------------------------------------------------------
+
+Между Сиэтлом и Ванкувером требуется организовать транспортное сообщение по воде. От
+каждого причала судно должно отходить не реже чем (в другом варианте - ровно) раз в час.
+Время в пути от одного города к другому - 100 минут.
+    а) Сколько требуется суден?
+    б) Сколько суден встречает каждое судно на пути из одного пункта в другой?
+    в) Допустим, судно выдвигается из порта в 2 pm. Во сколько оно встретит на своем пути
+       другие суда?
+
+Решение
+    а) Не реже: требуется 4 судна, которые будут отправляться каждые 50 минут
+       Ровно: все равно 4 судна. Но в каждом порту суда будут делать 20-минутную остановку
+    б) В обоих вариантах встречаются все остальные суда. Допустим, какое-то судно только
+       выходит из порта. Тогда другие суда либо идут ему навстречу (и обязательно
+       встретятся), либо идут перед ним в том же направлении (и тогда встретятся после
+       того, как развернутся в порту назначения). Заметим, что в рассматриваемый момент
+       времени не может быть суден, отстаивающихся в порту
+    в) Не реже: 2:25 pm, 2:50 pm, 3:15 pm (т.е. через 25, 50 и 75 минут)
+       Ровно: 2:20 pm, 2:50 pm, 3:20 pm (т.е. через 20, 50 и 80 минут). Первым встретится
+       судно, которое вышло из противоположного порта в 1 pm
