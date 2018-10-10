@@ -1,0 +1,12 @@
+How would you implement indexing of pictures for a web search engine?
+
+Some options:
+1. Use ALT text
+2. Analyze surrounding text
+3. Use page title
+4. Use the name of the picture file
+5. Feature extractor - try to extract and recognize features shown on the picture and use
+   this information to index the picture
+6. Use a tool similar to Google's Image Sitemap (which is an xml-based description of
+   pictures intended exactly for search engines). In more general terms (without referring
+   to a particular implementation): give site developers a tool for describing pictures
