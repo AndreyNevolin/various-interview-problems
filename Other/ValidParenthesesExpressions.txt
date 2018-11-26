@@ -1,0 +1,4 @@
+Any valid parentheses expression can be generated using grammar:
+S -> aSb | SS | e
+
+Empty expression is also considered a valid parentheses expression.
